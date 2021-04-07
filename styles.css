@@ -1,0 +1,381 @@
+/* body --------------------------------------------------------------------------*/
+
+body {
+   background-image: url("Images/bck4.jpg");
+   background-repeat: repeat-y;
+   background-size: contain;
+}
+
+/* frontpage----------------------------------------------------------------------*/
+
+.frontpage {
+   background-image: url("Images/front_page_background.jpg");
+   z-index: 2;
+   background-size: cover;
+   background-position: center center;
+   max-width: 100%;
+   margin-top: 50px;
+   padding-bottom: 170vw;
+}
+
+.bg-text {
+   background-color: rgba(0,0,0, 0.5);
+   color: white;
+   font-weight: bold;
+   border: 3px solid #f1f1f1;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 90%;
+   padding: 20px;
+   text-align: center;
+ }
+
+#title_1 {
+   text-align: center;
+   color: bisque;
+   font-size: 3.5vw;
+   font-family: "Orbitron", serif;
+   font-weight: bold;
+   text-decoration: underline;
+   letter-spacing: 2px;
+   padding-top : 0vw;
+   padding-bottom: 5vw;
+}
+
+#title_2 {
+   text-align: center;
+   color: bisque;
+   font-size: 13vw;
+   font-family: "Orbitron", serif;
+   letter-spacing: 5px;
+   font-weight: bold;
+   padding-top : 0vw;
+   padding-bottom: 5vw;
+}
+
+#title_3 {
+   text-align: center;
+   color: bisque;
+   font-size: 5vw;
+   font-family: "Orbitron", serif;
+   font-weight: bold;
+   letter-spacing: 3px;
+   margin-top: -3vw;
+   padding-top : 0vw;
+   padding-bottom: 5vw;
+}
+
+#title_4 {
+   text-align: center;
+   color: bisque;
+   font-size: 2.5vw;
+   font-family: "Orbitron", serif;
+   letter-spacing: 1px;
+   font-weight: bold;
+   padding-top : 0vw;
+   padding-bottom: 0vw;
+}
+
+@media only screen and (min-width: 600px) {
+   .frontpage {
+      margin-top: 50px;
+      padding-bottom: 50vw;
+   }
+   #title_1 {
+      font-size: 3vw;
+      padding-top : 0vw;
+      padding-bottom: 0vw;
+   }
+   #title_2 {
+      font-size: 10vw;
+      letter-spacing: 15px;
+      padding-bottom: 0vw;
+   }
+   #title_3 {
+      font-size: 4.4vw;
+      letter-spacing: 5px;
+      padding-bottom: 0vw;
+   }
+   #title_4 {
+      font-size: 3vw;
+      letter-spacing: 2px;
+      padding-top : 1vw;
+      padding-bottom: 0vw;
+   }
+   .bg-text {
+      background-color: rgba(0,0,0, 0.5); 
+      color: white;
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 27vw;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 90%;
+      padding: 20px;
+      text-align: center;
+   }
+}
+
+/* about, news --------------------------------------------------------------------*/
+
+.placer {
+   padding-top: 0px;
+}
+
+.card {
+   border-radius: 6pt;
+   border-style: none;
+   overflow: hidden;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 0px;
+   background-image: url("Images/bck5.jpg");
+   background-repeat: repeat;
+}
+
+.about {
+   color: #ffffff;
+   text-align: justify;
+   margin: 3vw;
+   font-size: 3.5vw;
+}
+
+.about-image {
+   width: 20vw;
+   height: auto;
+   margin-right: 10px;   
+   margin-bottom: 5px;
+   float: left;
+}
+
+.about-name {
+   font-size: 6vw;
+}
+
+.about-title {
+   font-size: 3vw;
+   color: aqua;
+}
+
+@media only screen and (min-width: 600px) {
+   .about {
+      margin: 3vw;
+      font-size: 1.3vw;
+   }
+   .about-image {
+      width: 15vw;
+      margin-right: 30px;   
+      margin-bottom: 30px;
+   }
+   .about-name {
+      font-size: 3vw;
+   }
+   .about-title {
+      font-size: 2vw;
+   }
+   .placer {
+      padding-top: 50px;
+   }
+}
+
+/* movies --------------------------------------------------------------------*/
+
+.card-image {
+   max-width: 100%;
+}
+
+.card-body {
+   color: #9FA7A9;
+   background-color: black;
+}
+ 
+.card-title {
+   font-size: 7vw;
+   font-weight: 600;
+   color: #ffffff;
+}
+
+.card-year {
+   color: rgb(143, 143, 221);
+   font-weight: 100;
+   font-size: 5vw;
+}
+
+.card-center {
+   margin-left: 0vw;
+}
+
+.metadata {
+   font-size: 5vw;
+   font-weight: 100;
+   color: #9dd492;
+   margin-bottom: 10px;
+}
+
+.card-text {
+   font-size: 4vw;
+   font-weight: 100;
+   color: #88a5a4;
+   text-align: justify;
+   margin: 0px;
+}
+
+.card-footer {
+   font-size: 5vw;
+   font-weight: 200;
+   color: #beb638;
+   text-align: center;
+   margin: 0px;
+   padding: 0px;
+}
+
+.card-button-preregister {
+   color:  rgb(51, 42, 42) ;
+   margin-top: 10px;
+   font-size: 5vw;
+   font-weight: 600;
+}
+
+@media only screen and (min-width: 600px) {
+   .card-title {
+      font-size: 1.8vw;
+      margin: 0px;
+   }
+   .card-year {
+      font-size: 1.4vw;
+   }
+   .metadata {
+      font-size: 1vw;
+      font-weight: 100;
+      margin: 0px;
+      margin-top: 10px;
+   }
+   .card-text {
+      font-size: 1vw;
+      font-weight: 100;
+      line-height: 1vw;
+      margin-top: 10px;
+   }
+
+   .card-footer {
+      font-size: 1.3vw;
+      font-weight: 200;
+      color: #beb638;
+      text-align: center;
+      margin-top: auto;
+   }
+
+   .card-button-preregister {
+      color:  rgb(51, 42, 42) ;
+      margin-top: 10px;
+      font-size: 1.2vw;
+      font-weight: 600;
+   }
+   .card-center {
+      margin-left: -4vw;
+   }
+}
+
+/* preregister --------------------------------------------------------------------*/
+.preregistration {
+   background-image: url("Images/bck5.jpg");
+   background-repeat: repeat;
+}   
+
+.prereg-button {
+   font-size: 5vw;
+   font-weight: 600;
+}
+
+@media only screen and (min-width: 600px) {
+   .prereg-button {
+      font-size: 1.3vw;
+      font-weight: 600;
+   }
+}
+
+/* links -------------------------------------------------------------------------*/
+
+/* footer ------------------------------------------------------------------------*/
+.myfooter {
+   background-image: url("Images/bck5.jpg");
+   background-repeat: repeat;
+}
+
+#footertextleft1 {
+   color: antiquewhite;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   padding-top: 10px;
+   text-align: center;
+}
+
+#footertextleft2 {
+   color: antiquewhite;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   padding-bottom: 0px;
+   text-align: center;
+}
+
+.fa {
+   padding: 25px;
+   font-size: 30px;
+   text-align: center;
+   margin: 10px;
+ }
+
+.footermid {
+   text-align: center;
+}
+
+.footerright{
+   text-align: right;
+}
+
+#footertextright{
+   color: antiquewhite;
+   margin-bottom: 10px;
+   padding-top: 00px;
+   padding-bottom: 0px;
+   text-align: center;
+}
+
+.preregistration {
+   padding: 30px;
+   background-color: black;
+   color: aliceblue;
+}
+
+select {
+   text-align: center;
+   text-align-last: center;
+}
+
+@media only screen and (min-width: 600px) {
+   #footertextleft1 {
+      text-align: left;
+      padding-top: 30px;
+   }
+   
+   #footertextleft2 {
+      margin-bottom: 0px;
+      margin-top: 0px;
+      padding-bottom: 30px;
+      text-align: left;
+   }
+
+   #footertextright{
+      color: antiquewhite;
+      margin-bottom: 0px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: right;
+   }
+}
